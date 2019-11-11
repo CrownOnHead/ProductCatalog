@@ -26,7 +26,7 @@ public class Product {
     }
     public String getId() {
         return _id;
-    } 
+    }
     public void setProductName(String productname) {
         _productname = productname;
     }
@@ -37,7 +37,7 @@ public class Product {
         _price = price;
     }
     public double getPrice() {
-        return (int)_price;
+        return _price;
     }
 }
 
