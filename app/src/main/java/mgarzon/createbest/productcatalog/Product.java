@@ -26,7 +26,7 @@ public class Product {
     }
     public String getId() {
         return _id;
-    }
+    } 
     public void setProductName(String productname) {
         _productname = productname;
     }
